@@ -15,6 +15,8 @@
 		FA74A1301F6541650027BFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA74A12E1F6541650027BFBB /* LaunchScreen.storyboard */; };
 		FA74A13B1F6541650027BFBB /* TailorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA74A13A1F6541650027BFBB /* TailorDemoTests.m */; };
 		FA74A1461F6541650027BFBB /* TailorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA74A1451F6541650027BFBB /* TailorDemoUITests.m */; };
+		FA74A1621F6588420027BFBB /* JJTailorImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA74A1611F6588420027BFBB /* JJTailorImgVC.m */; };
+		FAA0C1471FAC584600668772 /* JJTailorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0C1441FAC584600668772 /* JJTailorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		FA74A1411F6541650027BFBB /* TailorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA74A1451F6541650027BFBB /* TailorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailorDemoUITests.m; sourceTree = "<group>"; };
 		FA74A1471F6541650027BFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA74A1601F6588420027BFBB /* JJTailorImgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTailorImgVC.h; sourceTree = "<group>"; };
+		FA74A1611F6588420027BFBB /* JJTailorImgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTailorImgVC.m; sourceTree = "<group>"; };
+		FAA0C1441FAC584600668772 /* JJTailorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTailorManager.m; sourceTree = "<group>"; };
+		FAA0C1451FAC584600668772 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss.png; sourceTree = "<group>"; };
+		FAA0C1461FAC584600668772 /* JJTailorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTailorManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				FA74A1241F6541650027BFBB /* AppDelegate.m */,
 				FA74A1261F6541650027BFBB /* ViewController.h */,
 				FA74A1271F6541650027BFBB /* ViewController.m */,
+				FA74A1601F6588420027BFBB /* JJTailorImgVC.h */,
+				FA74A1611F6588420027BFBB /* JJTailorImgVC.m */,
+				FAA0C1451FAC584600668772 /* ss.png */,
+				FAA0C1461FAC584600668772 /* JJTailorManager.h */,
+				FAA0C1441FAC584600668772 /* JJTailorManager.m */,
 				FA74A1291F6541650027BFBB /* Main.storyboard */,
 				FA74A12C1F6541650027BFBB /* Assets.xcassets */,
 				FA74A12E1F6541650027BFBB /* LaunchScreen.storyboard */,
@@ -276,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA74A1621F6588420027BFBB /* JJTailorImgVC.m in Sources */,
 				FA74A1281F6541650027BFBB /* ViewController.m in Sources */,
+				FAA0C1471FAC584600668772 /* JJTailorManager.m in Sources */,
 				FA74A1251F6541650027BFBB /* AppDelegate.m in Sources */,
 				FA74A1221F6541640027BFBB /* main.m in Sources */,
 			);
@@ -431,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S7QPQSM7S;
 				INFOPLIST_FILE = TailorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vshow.TailorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S7QPQSM7S;
 				INFOPLIST_FILE = TailorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vshow.TailorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +534,7 @@
 				FA74A14C1F6541650027BFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA74A14D1F6541650027BFBB /* Build configuration list for PBXNativeTarget "TailorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				FA74A14F1F6541650027BFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA74A1501F6541650027BFBB /* Build configuration list for PBXNativeTarget "TailorDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				FA74A1521F6541650027BFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
