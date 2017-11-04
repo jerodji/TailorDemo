@@ -477,6 +477,7 @@
     if (_tailorForm == Coterie)
     {
         UIImage* ouImg = [[JJTailorManager manager] tailorImage:_imgView.image circleRect:CGRectMake(_rectX, _rectY, _rectW, _rectH)];
+        
         _finishBlk(ouImg);
     }
     if(_tailorForm == Square)

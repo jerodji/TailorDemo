@@ -56,7 +56,6 @@
 		FA74A1601F6588420027BFBB /* JJTailorImgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTailorImgVC.h; sourceTree = "<group>"; };
 		FA74A1611F6588420027BFBB /* JJTailorImgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTailorImgVC.m; sourceTree = "<group>"; };
 		FAA0C1441FAC584600668772 /* JJTailorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTailorManager.m; sourceTree = "<group>"; };
-		FAA0C1451FAC584600668772 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss.png; sourceTree = "<group>"; };
 		FAA0C1461FAC584600668772 /* JJTailorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTailorManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +113,6 @@
 				FA74A1271F6541650027BFBB /* ViewController.m */,
 				FA74A1601F6588420027BFBB /* JJTailorImgVC.h */,
 				FA74A1611F6588420027BFBB /* JJTailorImgVC.m */,
-				FAA0C1451FAC584600668772 /* ss.png */,
 				FAA0C1461FAC584600668772 /* JJTailorManager.h */,
 				FAA0C1441FAC584600668772 /* JJTailorManager.m */,
 				FA74A1291F6541650027BFBB /* Main.storyboard */,

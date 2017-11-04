@@ -42,9 +42,10 @@
 
 - (void)btnAction1:(UIButton*)button
 {
-//    方形裁剪
+    //方形裁剪
     JJTailorImgVC * tailorVC = [[JJTailorImgVC alloc] init];
-    [tailorVC tailorImage:[UIImage imageNamed:@"ss.png"] form:Square finishCB:^(UIImage *finishImage) {
+    
+    [tailorVC tailorImage:[UIImage imageNamed:@"ss"] form:Square finishCB:^(UIImage *finishImage) {
         [_button1 setImage:finishImage forState:UIControlStateNormal];
     }];
     
@@ -53,9 +54,10 @@
 
 - (void)btnAction2:(UIButton*)button
 {
-//    长方形裁剪
+    //长方形裁剪
     JJTailorImgVC * tailorVC = [[JJTailorImgVC alloc] init];
-    [tailorVC tailorImage:[UIImage imageNamed:@"ss.png"] form:Rectangle finishCB:^(UIImage *finishImage) {
+    
+    [tailorVC tailorImage:[UIImage imageNamed:@"ss"] form:Rectangle finishCB:^(UIImage *finishImage) {
         [_button2 setImage:finishImage forState:UIControlStateNormal];
     }];
     
@@ -64,9 +66,10 @@
 
 - (void)btnAction3:(UIButton*)button
 {
-//    圆形裁剪
+    //圆形裁剪
     JJTailorImgVC * tailorVC = [[JJTailorImgVC alloc] init];
-    [tailorVC tailorImage:[UIImage imageNamed:@"ss.png"] form:Coterie finishCB:^(UIImage *finishImage) {
+    
+    [tailorVC tailorImage:[UIImage imageNamed:@"ss"] form:Coterie finishCB:^(UIImage *finishImage) {
         [_button3 setImage:finishImage forState:UIControlStateNormal];
     }];
     
