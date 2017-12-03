@@ -463,8 +463,8 @@
 {
     CGFloat a = _imgView.transform.a;
     
-    _rectX = (_slX - _imgView.frame.origin.x) * (max_multiple / a);
-    _rectY = (_slY - _imgView.frame.origin.y) * (max_multiple / a);
+    _rectX = (_slX - _imgView.frame.origin.x) * _rate / a;
+    _rectY = (_slY - _imgView.frame.origin.y) * _rate / a;
     _rectW = _slW * _rate / a;
     _rectH = _slH * _rate / a;
     
